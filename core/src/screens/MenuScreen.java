@@ -37,7 +37,7 @@ public class MenuScreen implements Screen {
         Skin skin = new Skin();
         skin = new Skin(Gdx.files.internal("uiskin.json"));
 
-        titulo = new Label("Chemi Trivia", skin);
+        titulo = new Label("NOMENCLATRIVIA", skin);
         titulo.setColor(Color.BLACK);
 
         inicio = new TextButton("Inicio", skin);

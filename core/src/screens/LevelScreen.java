@@ -1,18 +1,30 @@
 package screens;
 
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 
 /**
  * Created by Chromz on 10/14/2015.
  */
 public class LevelScreen implements Screen {
+    private TextButton[] botones;
+
+    public enum Preguntas{
+        SB1
+
+    }
     @Override
-    public void dispose() {
-        
+    public void show() {
+
     }
 
     @Override
-    public void hide() {
+    public void render(float delta) {
+
+    }
+
+    @Override
+    public void resize(int width, int height) {
 
     }
 
@@ -27,17 +39,12 @@ public class LevelScreen implements Screen {
     }
 
     @Override
-    public void resize(int width, int height) {
+    public void hide() {
 
     }
 
     @Override
-    public void render(float delta) {
-
-    }
-
-    @Override
-    public void show() {
+    public void dispose() {
 
     }
 }
