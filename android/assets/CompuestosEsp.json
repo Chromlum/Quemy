@@ -1,0 +1,44 @@
+[
+  {
+    "compuesto":"Amoniaco",
+    "posiblesResp":"N4H NH4 NH3 H2N",
+    "tips":"Recuerda que una molécula de amoniaco se conforma de 3 átomos de hidrogeno y 1 de nitrógeno.",
+    "respuesta":"NH3"
+  },
+  {
+    "compuesto":"Fosfina",
+    "posiblesResp":"PH3 PH P2H3 PH2",
+    "tips":"Recuerda que el fosforo (P) utiliza una valencia de 3.",
+    "respuesta":"PH3"
+  },
+  {
+    "compuesto":"Arsina",
+    "posiblesResp":"AsH3 As2H AsH AsH4",
+    "tips":"Recuerda que la arsina es una molécula conformada por 3 átomos de hidrogeno y 1 de arsénico.",
+    "respuesta":"AsH3"
+  },
+  {
+    "compuesto":"Borano",
+    "posiblesResp":"BH2 BH3 BrH2 B2H",
+    "tips":"Recuerda que el borano posee 3 átomos de hidrogeno.",
+    "respuesta":"BH3"
+  },
+  {
+    "compuesto":"Estibina",
+    "posiblesResp":"SbH3 SbH SbH2 HSb3",
+    "tips":"Recuerda que la estibina posee 3 átomos de hidrogeno.",
+    "respuesta":"SbH3"
+  },
+  {
+    "compuesto":"Metano",
+    "posiblesResp":"CH4 CH CH2 CH3",
+    "tips":"Recuerda que el carbono (C), utiliza una valencia de 4.  También recuerda que estas se intercambian",
+    "respuesta":"CH4"
+  },
+  {
+    "compuesto":"Silano",
+    "posiblesResp":"Si2H4 SiH4 Si3H4 Si3H",
+    "tips":"Recuerda que el hidrogeno (H), siempre actúa con una valencia de 1.",
+    "respuesta":"SiH4"
+  }
+]

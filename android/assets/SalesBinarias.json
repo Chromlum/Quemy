@@ -1,0 +1,302 @@
+[
+  {
+    "compuesto":"Sulfuro ferroso",
+    "posiblesResp":"Fe2S FeS FeAs SFe",
+    "tips":"Recuerda que el hierro (Fe), utiliza valencias 2 y 3. Para las valencias pequeñas es “OSO” y para las grandes “ICO”",
+    "respuesta":"FeS"
+  },
+  {
+    "compuesto":"Boruro de Sodio",
+    "posiblesResp":"Na3B BNa3 B3Na NaB",
+    "tips":"Recuerda que el No Metal se escribe de último, pero se pronuncia de primero con la terminación URO",
+    "respuesta":"Na3B"
+  },
+  {
+    "compuesto":"Carburo Cálcico",
+    "posiblesResp":"C2Ca2 CaC CCa Ca2C",
+    "tips":"Recuerda que el calcio utiliza su valencia negativa",
+    "respuesta":"Ca2C"
+  },
+  {
+    "compuesto":"Fosfuro Cobáltico",
+    "posiblesResp":"CoP CoP3 PCo PCo3",
+    "tips":"Recuerda que el cobalto es un metal y por tener la terminación ICO utiliza su valencia más grande",
+    "respuesta":"CoP"
+  },
+  {
+    "compuesto":"Silicuro de Bario",
+    "posiblesResp":"Ba2Si BaSi SiBa SiBa2",
+    "tips":"Recuerda que el Silicio utiliza su valencia negativa, -4",
+    "respuesta":"Ba2Si"
+  },
+  {
+    "compuesto":"Yoduro de Zinc",
+    "posiblesResp":"I2Zn ZnI ZnI2 Zn2I",
+    "tips":"Recuerda que el no metal va de último y que el Yodo utiliza su valencia negativa, -1",
+    "respuesta":"ZnI2"
+  },
+  {
+    "compuesto":"Arsenicuro Ferroso",
+    "posiblesResp":"FeAs AsFe Fe3As2 Fe2As3",
+    "tips":"Recuerda que los elementos “intercambian” sus valencias.",
+    "respuesta":"Fe3As2"
+  },
+  {
+    "compuesto":"Sulfúro de oro (III)",
+    "posiblesResp":"Au2S3 Au3S2 S3Au2 AuS",
+    "tips":"Recuerda que en nombramiento Stock el número que aparece es la valencia que utiliza el Metal originalmente",
+    "respuesta":"Au2S3"
+  },
+  {
+    "compuesto":"Fluoruro Platinoso",
+    "posiblesResp":"PtF2 FPt Pt2F PtF",
+    "tips":"Recuerda que los elementos intercambian sus valencias",
+    "respuesta":"PtF2"
+  },
+  {
+    "compuesto":"Seleniuro Potásico",
+    "posiblesResp":"K2Se KSe2 Se2K SeK",
+    "tips":"Recuerda que se escribe de primero el Metal y el no metal va de último con su valencia negativa",
+    "respuesta":"K2Se"
+  },
+  {
+    "compuesto":"Sulfuro Niqueloso",
+    "posiblesResp":"Ni2S2 SNi NiS NiS2",
+    "tips":"Recuerda que se pueden simplificar las valencias si son divisibles dentro de un mismo número",
+    "respuesta":"NiS"
+  },
+  {
+    "compuesto":"Cloruro Ferroso",
+    "posiblesResp":"FeCl2 Fe2Cl ClFe FeCl",
+    "tips":"Recuerda de intercambiar las valencias de los elementos.",
+    "respuesta":"FeCl2"
+  },
+  {
+    "compuesto":"Yoduro Potásico",
+    "posiblesResp":"IK K7I KI KI7",
+    "tips":"Recuerda que tanto el yodo como el potasio utilizan valencias 1",
+    "respuesta":"KI"
+  },
+  {
+    "compuesto":"Telururo de Calcio",
+    "posiblesResp":"CaTe TeCa Ca2Te TeCa2",
+    "tips":"Recuerda que se pueden simplificar las valencias si son divisibles dentro de un mismo número",
+    "respuesta":"CaTe"
+  },
+  {
+    "compuesto":"Sulfuro de Manganeso (II)",
+    "posiblesResp":"SMn MnS S2Mn7 S7Mn2",
+    "tips":"Recuerda que en nombramiento Stock el número que aparece es la valencia que utiliza el Metal originalmente",
+    "respuesta":"MnS"
+  },
+  {
+    "compuesto":"Bromuro de Cobre (II)",
+    "posiblesResp":"CuBr2 Cu2Br BrCu CuBr",
+    "tips":"Recuerda que el cobre es quien utiliza originalmente valencia 2. Recuerda además que  las valencias se intercambian.",
+    "respuesta":"CuBr2"
+  },
+  {
+    "compuesto":"Cloruro de Aluminio",
+    "posiblesResp":"ClAl AlCl3 Al3Cl AlCl",
+    "tips":"Recuerda que las valencias de los elementos se intercambian.",
+    "respuesta":"AlCl3"
+  },
+  {
+    "compuesto":"Fluoruro de Calcio",
+    "posiblesResp":"F2Ca CaF2 Ca2F CaF",
+    "tips":"Recuerda que las valencias de los elementos se intercambian.",
+    "respuesta":"CaF2"
+  },
+  {
+    "compuesto":"Fluoruro Lítico",
+    "posiblesResp":"FLi LiF PLi LiP",
+    "tips":"Recuerda que el Metal se escribe de primero y el No Metal de último",
+    "respuesta":"LiF"
+  },
+  {
+    "compuesto":"Cloruro de Sodio",
+    "posiblesResp":"NaCl ClNa NaCl7 Na7Cl",
+    "tips":"Recuerda que el cloro utiliza su única valencia negativa",
+    "respuesta":"NaCl"
+  },
+  {
+    "compuesto":"Cloruro Ferroso",
+    "posiblesResp":"FCl2 FCl3 Cl3F FCl",
+    "tips":"Recuerda que para el hierro la terminación OSO es para su valencia más pequeña.",
+    "respuesta":"FCl2"
+  },
+  {
+    "compuesto":"Cloruro de Hierro (III)",
+    "posiblesResp":"ClFe2 FeCl3 Cl3F FCl",
+    "tips":"Recuerda que el No metal se escribe de último",
+    "respuesta":"FeCl3"
+  },
+  {
+    "compuesto":"Bromuro de Oro (I)",
+    "posiblesResp":"AuBr BrAu BrAu3 Br3Au",
+    "tips":"Recuerda que el número que aparece en el nombre es la valencia que utiliza el oro originalmente.",
+    "respuesta":"AuBr"
+  },
+  {
+    "compuesto":"Bromo áurico",
+    "posiblesResp":"AuBr AuBr3 BrAu Au3Br",
+    "tips":"Recuerda que la terminación ICO se utiliza para la valencia más grande del Metal",
+    "respuesta":"AuBr3"
+  },
+  {
+    "compuesto":"Sulfuro de Cobalto (II)",
+    "posiblesResp":"SCo CoS CoS3 Co3S",
+    "tips":"Recuerda que las valencias se pueden simplificar si son divisibles entre un mismo número",
+    "respuesta":"CoS"
+  },
+  {
+    "compuesto":"Sulfuro de Cobalto (III)",
+    "posiblesResp":"Co2S3 CoS Co3S S2Co3",
+    "tips":"Recuerda que la valencia del cobalto es 3, pero esta se intercambia con la del azufre.",
+    "respuesta":"Co2S3"
+  },
+  {
+    "compuesto":"Sulfuro Plumboso",
+    "posiblesResp":"SPb PbS Pb2S2 PbS2",
+    "tips":"Recuerda que las valencias se pueden simplificar si son divisibles entre un mismo número",
+    "respuesta":"PbS"
+  },
+  {
+    "compuesto":"Sulfuro plúmbico",
+    "posiblesResp":"PbS2 SPb2 Pb2S SPb",
+    "tips":"Recuerda que el metal va primero y el no metal de último y sus valencias se intercambian.",
+    "respuesta":"PbS2"
+  },
+  {
+    "compuesto":"Nitruro Niqueloso",
+    "posiblesResp":"Ni3N2 Ni2N3 N3Ni2 NiN",
+    "tips":"Recuerda que las valencias de los elementos se intercambian",
+    "respuesta":"Ni3N2"
+  },
+  {
+    "compuesto":"Yoduro de Mercurio (II)",
+    "posiblesResp":"IHg2 Hg2I I2Hg HgI2",
+    "tips":"Recuerda que los elementos intercambian sus valencias.",
+    "respuesta":"HgI2"
+  },
+  {
+    "compuesto":"Fosfuro de Calcio",
+    "posiblesResp":"CaP Pa3Ca PCa2 Ca3P2",
+    "tips":"Recuerda que el fósforo utiliza su valencia negativa por ir de último.",
+    "respuesta":"Ca3P2"
+  },
+  {
+    "compuesto":"Ioduro de Hidrógeno",
+    "posiblesResp":"HI IH I5H IOH",
+    "tips":"Recuerda que tanto el Hidrógeno como el Yodo utilizan valencia 1",
+    "respuesta":"HI"
+  },
+  {
+    "compuesto":"Nitruro de Potasio",
+    "posiblesResp":"K3N KN3 NK3 N3K",
+    "tips":"Recuerda que el Nitrógeno es el que utiliza la valencia negativa.",
+    "respuesta":"K3N"
+  },
+  {
+    "compuesto":"Sulfuro de Rubidio",
+    "posiblesResp":"SRb S2Rb RbS2 Rb2S",
+    "tips":"Recuerda que el orden es metal, no metal.",
+    "respuesta":"Rb2S"
+  },
+  {
+    "compuesto":"Carbonuro de Berilio",
+    "posiblesResp":"CBe Be2C4 BeC2 CBe2",
+    "tips":"Recuerda que puedes simplificar las valencias si son divisibles entre un mismo número",
+    "respuesta":"BeC2"
+  },
+  {
+    "compuesto":"Arsenicuro de Galio",
+    "posiblesResp":"AsGa Ga3As3 GaAs As3Ga3",
+    "tips":"Recuerda que las valencias pueden simplificarse.",
+    "respuesta":"GaAs"
+  },
+  {
+    "compuesto":"Yoduro Perenico",
+    "posiblesResp":"ReI7 IRe7 Re7I I7Re",
+    "tips":"Recuerda que las valencias de los elementos se intercambian.",
+    "respuesta":"ReI7"
+  },
+  {
+    "compuesto":"Nitruro Vanadico",
+    "posiblesResp":"VaN Va3N3 NVa N3Va3",
+    "tips":"Recuerda que las valencias de los elementos pueden simplificarse.",
+    "respuesta":"VaN"
+  },
+  {
+    "compuesto":"Cloruro de Lantano",
+    "posiblesResp":"ClLa La3Cl Cl3La LaCl3",
+    "tips":"Recuerda que el orden de los elementos es: metal, no metal.",
+    "respuesta":"LaCl3"
+  },
+  {
+    "compuesto":"Astaturo Potásico",
+    "posiblesResp":"KAt AtK At3K K3At",
+    "tips":"Recuerda que el orden de los elementos es: metal, no metal.",
+    "respuesta":"Kat"
+  },
+  {
+    "compuesto":"Bromuro Estróncico",
+    "posiblesResp":"SrBr2 BrSr Br2Sr Sr2Br",
+    "tips":"Recuerda que las valencias de los elementos se intercambian.",
+    "respuesta":"SrBr2"
+  },
+  {
+    "compuesto":"Fluoruro Circónico",
+    "posiblesResp":"ZrF4 F4Zr ZrF FZr",
+    "tips":"Recuerda que las valencias de los elementos se intercambian.",
+    "respuesta":"ZrF4"
+  },
+  {
+    "compuesto":"Seleniuro de Calcio",
+    "posiblesResp":"CaSe SeCa Ca2Se2 Se2Ca2",
+    "tips":"Recuerda que las valencias de los elementos se pueden simplificar si son divisibles entre un mismo número.",
+    "respuesta":"CaSe"
+  },
+  {
+    "compuesto":"Nitruro de escandio",
+    "posiblesResp":"NSc Sc3N3 ScN N3Sc3",
+    "tips":"Recuerda que las valencias de los elementos se pueden simplificar si son divisibles entre un mismo número.",
+    "respuesta":"ScN"
+  },
+  {
+    "compuesto":"Carbonuro Manganoso",
+    "posiblesResp":"MnC Mn4C3 Mn3C4 CMn",
+    "tips":"Recuerda que si un elemento tiene 2 posibles valencias para usar, utiliza la valencia par si se encuentra en columna par en la tabla periódica e impar si se encuentra en columna impar.",
+    "respuesta":"Mn4C3"
+  },
+  {
+    "compuesto":"Fosfuro Nioboso",
+    "posiblesResp":"NbP PNb P5Nb Nb3P5",
+    "tips":"Recuerda que Para un elemento con 2 valencias la terminación OSO es para la valencia pequeña e ICO para la valencia grande.",
+    "respuesta":"NbP"
+  },
+  {
+    "compuesto":"Bromuro de Cesio",
+    "posiblesResp":"CsBr BrCs Cs5Br BrCs5",
+    "tips":"Recuerda que el Bromo utiliza únicamente su valencia negativa.",
+    "respuesta":"CsBr"
+  },
+  {
+    "compuesto":"Cloruro de Amonio",
+    "posiblesResp":"NH3Cl ClNH3 NH4Cl Cl3NH",
+    "tips":"Recuerda que el amonio es NH3",
+    "respuesta":"NH3Cl"
+  },
+  {
+    "compuesto":"Cloruro Platinoso",
+    "posiblesResp":"AgCl ClAg Cl7Ag Ag7Cl",
+    "tips":"Recuerda que las valencias de los elementos se intercambian.",
+    "respuesta":"AgCl"
+  },
+  {
+    "compuesto":"Sulfuro Osmioso",
+    "posiblesResp":"OsS2 S2Os Os2S4 S4Os2",
+    "tips":"Recuerda que si un elemento tiene 2 posibles valencias para usar, utiliza la valencia par si se encuentra en columna par en la tabla periódica e impar si se encuentra en columna impar.",
+    "respuesta":"OsS2"
+  }
+]

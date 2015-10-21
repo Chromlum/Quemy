@@ -1,0 +1,122 @@
+[
+  {
+    "compuesto":"Silicato (mono) ácido Férrico",
+    "posiblesResp":"Fe(HSiO3)3 Fe(HSiO) Fe(HSiO3) Fe(SiHO3)3",
+    "tips":"Recuerda que el subíndice te indica la cantidad de moléculas de hidrógeno que quedó presentes en el compuesto.",
+    "respuesta":"Fe(HSiO3)3"
+  },
+  {
+    "compuesto":"Carbonato (mono) ácido Cálcico",
+    "posiblesResp":"Ca(HCO3)2 Ca(HCO3) Ca(COH) HCO3(Ca)2",
+    "tips":"Recuerda que el calcio utiliza valencia 2+",
+    "respuesta":"Ca(HCO3)2"
+  },
+  {
+    "compuesto":"(Orto) Fosfato diácido ferroso",
+    "posiblesResp":"Fe(H2PO4)2 Fe(H4PO4)2 Fe(HPO) Fe(PO4H2)2",
+    "tips":"Recuerda que el prefijo antes de la palabra “ácido” es quien indica las moléculas de hidrógeno presentes en el compuesto.",
+    "respuesta":"Fe(H2PO4)2"
+  },
+  {
+    "compuesto":"(Orto) fosfato (mono) ácido ferroso",
+    "posiblesResp":"Fe(HPO) Fe(H4PO)2 FeHPO4 HPOFe",
+    "tips":"Recuerda que el prefijo antes de la palabra “ácido” es quien indica las moléculas de hidrógeno presentes en el compuesto.",
+    "respuesta":"FeHPO4"
+  },
+  {
+    "compuesto":"Piroantimoniato triácido alumínico",
+    "posiblesResp":"Al(H3Sb2O7)3 Al(HSbO) Al(H3Sb2O7) (H3Sb2O7)Al3",
+    "tips":"Recuerda que debes formar tu oxácido de primero y el último compuesto nombrado, es el primero que se escribe.",
+    "respuesta":"Al(H3Sb2O7)3"
+  },
+  {
+    "compuesto":"(orto) Arsenicato ácido Plúmbico",
+    "posiblesResp":"Pb(HAsO) Pb(HAsO)2 Pb(HAsO4)2 HAsO4(Pb2)",
+    "tips":"Recuerda que el último compuesto nombrado es el primer compuesto que se escribe.",
+    "respuesta":"Pb(HAsO4)2"
+  },
+  {
+    "compuesto":"Piroborato diácido sódico",
+    "posiblesResp":"Na2H2B2O2 Na2H2B2O5 NaHBO NaH2BO",
+    "tips":"Recuerda que el prefijo antes de la palabra “ácido” es quien indica las moléculas de hidrógeno presentes en el compuesto.",
+    "respuesta":"Na2H2B2O5"
+  },
+  {
+    "compuesto":"Sulfato de Potasio y Aluminio",
+    "posiblesResp":"KAl(SO4) KAl(SO) KAl(SO4)2 SO2KAl",
+    "tips":"Recuerda que las valencias de ambos metales se suman.",
+    "respuesta":"Kal(SO4)2"
+  },
+  {
+    "compuesto":"Nitrato Auroso Plumboso",
+    "posiblesResp":"AuPb(NO3)3 PbAu(NO3)3 PbAu(NO3) AuPb(NO)",
+    "tips":"Recuerda que los metales se escriben de forma creciente según sus valencias.",
+    "respuesta":"AuPb(NO3)3"
+  },
+  {
+    "compuesto":"Metaborato de cesio y magnesio",
+    "posiblesResp":"MgCs(BO) MgCs(BO3)2 CsMg(BO2)3 CsMg(BO2)",
+    "tips":"Recuerda que las valencias de los metales deben sumarse.",
+    "respuesta":"CsMg(BO2)3"
+  },
+  {
+    "compuesto":"Carbonito de potasio y sodio",
+    "posiblesResp":"KNaCO2 NaKCO KNaCO CO2KNa",
+    "tips":"Recuerda que los metales se escriben de forma creciente según sus valencias.",
+    "respuesta":"KNaCO2"
+  },
+  {
+    "compuesto":"(Orto) Fosfato alumínico férrico",
+    "posiblesResp":"AlFe(PO4) AlFe(PO4)2 FeAl(PO) FeAl(PO4)2",
+    "tips":"Recuerda que los metales se escriben de forma creciente según sus valencias y sus valencias se suman.",
+    "respuesta":"AlFe(PO4)2"
+  },
+  {
+    "compuesto":"Piroantimoniato ferroso niqueloso",
+    "posiblesResp":"FeNiSbO FeNiSb7O2 FeNiO7Sb2 FeNiSb2O7",
+    "tips":"Recuerda que los metales se escriben de forma creciente según sus valencias y sus valencias se suman.",
+    "respuesta":"FeNiSb2O7"
+  },
+  {
+    "compuesto":"Sulfato ácido de sodio",
+    "posiblesResp":"NaHSO NaSO4 NaHSO3 NaHSO4",
+    "tips":"Recuerda que el ión sulfato es SO4",
+    "respuesta":"NaHSO4"
+  },
+  {
+    "compuesto":"Carbonato ácido de potasio",
+    "posiblesResp":"KHCO4 KHCO KHCO3 COHK",
+    "tips":"Recuerda que la palabra ácido te indica cuantas moléculas de hidrógeno hay en el compuesto.",
+    "respuesta":"KHCO3"
+  },
+  {
+    "compuesto":"Sulfato de litio y potasio",
+    "posiblesResp":"KLiSO4 LiKSO LiKSO4 KLiSO",
+    "tips":"Recuerda que los metales se escriben de forma creciente según sus valencias.",
+    "respuesta":"KLiSO4"
+  },
+  {
+    "compuesto":"Sulfato ácido de calcio",
+    "posiblesResp":"Ca(HSO4)2 Ca(SO4)2 Ca(HSO4) Ca2(HSO)",
+    "tips":"Recuerda que la palabra ácido te indica cuantas moléculas de hidrógeno hay en el compuesto.",
+    "respuesta":"Ca(HSO4)2"
+  },
+  {
+    "compuesto":"Fosfato ácido de sodio",
+    "posiblesResp":"NaHPO Na2HPO5 NaHPO5 Na5H3PO2",
+    "tips":"Recuerda que la palabra ácido te indica cuantas moléculas de hidrógeno hay en el compuesto.",
+    "respuesta":"Na2HPO5"
+  },
+  {
+    "compuesto":"Sulfato ácido de potasio",
+    "posiblesResp":"K2HSO K2HSO4 KHSO SO4K",
+    "tips":"Recuerda que el ión sulfato es SO4",
+    "respuesta":"K2HSO4"
+  },
+  {
+    "compuesto":"Sulfato (doble) de calcio y disodio",
+    "posiblesResp":"CaNa2(SO4)2 CaNa2(SO4) CaNa(SO4) Na2Ca(SO4)2",
+    "tips":"Recuerda que los metales se escriben de forma creciente según sus valencias.",
+    "respuesta":"CaNa2(SO4)2"
+  }
+]

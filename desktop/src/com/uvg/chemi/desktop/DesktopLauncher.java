@@ -7,6 +7,9 @@ import com.uvg.chemi.ChemistryTriviaGame;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+		config.resizable = false;
+		config.width = 800;
+		config.height = 600;
 		new LwjglApplication(new ChemistryTriviaGame(), config);
 	}
 }
