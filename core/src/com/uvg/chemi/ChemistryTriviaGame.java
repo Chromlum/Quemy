@@ -22,15 +22,15 @@ public class ChemistryTriviaGame extends Game {
     private OrthographicCamera camera;
     private Texture background;
     private Stage stage;
-    public static final int WIDTH = 800;
-    public static final int HEIGHT = 600;
 
 	@Override
 	public void create () {
         batch = new SpriteBatch();
         camera = new OrthographicCamera();
-        camera.setToOrtho(false, WIDTH, HEIGHT);
+        camera.setToOrtho(false, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         stage = new Stage(new ScreenViewport());
+        ((OrthographicCamera)stage.getCamera()).setToOrtho(false, Gdx.graphics.getWidth(),
+                Gdx.graphics.getHeight());
         background = new Texture(Gdx.files.internal("Quemi.jpg"));
         MenuScreen menu = new MenuScreen(this);
         setScreen(menu);

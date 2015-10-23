@@ -49,6 +49,7 @@ public class LevelScreen extends Stage implements Screen {
     private float backx;
     private long tiempo;
     private float backy;
+    private boolean paso;
 
 
     public LevelScreen(ChemistryTriviaGame game, Nivel megaNivel){
@@ -57,17 +58,21 @@ public class LevelScreen extends Stage implements Screen {
         this.megaNivel = megaNivel;
     }
 
-    public LevelScreen(ChemistryTriviaGame game, Nivel megaNivel, Dialog dialog){
+    public LevelScreen(ChemistryTriviaGame game, Nivel megaNivel, Dialog dialog, Boolean t){
         super(new ScreenViewport());
         this.game = game;
         this.megaNivel = megaNivel;
         this.dialogo = dialog;
+        this.paso = t;
     }
 
     @Override
     public void show() {
 
         Gdx.input.setInputProcessor(this);
+
+        ((OrthographicCamera)this.getCamera()).setToOrtho(false,
+                Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         Skin skin = new Skin(Gdx.files.internal("uiskin.json"));
         final TextButton returnButton = new TextButton("Regresar", skin);
         titulo = new Label("NIVEL", skin);
@@ -79,7 +84,13 @@ public class LevelScreen extends Stage implements Screen {
 
         if(this.dialogo != null){
             dialogo.getContentTable().reset();
-            Label label = new Label("Muy bien! sigue con los dem\u00E1s niveles", skin);
+            Label label = null;
+            if(paso) {
+                label = new Label("Muy bien! sigue con los dem\u00E1s niveles", skin);
+            } else{
+                dialogo.getTitleLabel().setText(":(");
+                label = new Label("Has reprobado este nivel", skin);
+            }
             label.setWrap(true);
             dialogo.getContentTable().add(label).prefWidth(350);
             dialogo.show(this);
@@ -130,8 +141,8 @@ public class LevelScreen extends Stage implements Screen {
                 cantidadDeFilas++;
         }
 
-        int col = Gdx.graphics.getWidth() / cantidadDeCols;
-        int row = (int)(Gdx.graphics.getHeight() - Gdx.graphics.getHeight() * 0.20f) / cantidadDeFilas;
+        float col = Gdx.graphics.getWidth() / cantidadDeCols;
+        float row = Gdx.graphics.getHeight() * 0.70f / cantidadDeFilas;
 
 
         ClickListener click = new ClickListener(){
@@ -156,7 +167,8 @@ public class LevelScreen extends Stage implements Screen {
                 cantidadDeFilas--;
                 multiplicador = 1;
             }else if (i != 0) multiplicador++;
-            botones[i].setPosition(col * multiplicador - 85 * 1.5f, row * cantidadDeFilas - 70f);
+            botones[i].setPosition(col * multiplicador - col + Gdx.graphics.getWidth() * 0.10f,
+                    row * cantidadDeFilas);
             botones[i].addListener(click);
             addActor(botones[i]);
         }

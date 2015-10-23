@@ -1,0 +1,122 @@
+[
+  {
+    "compuesto":"oxido de magnesio",
+    "posiblesResp":"MgO MgO3 Mg4O2 Mg2O4",
+    "tips":"Cuando el elemento tiene un solo estado de oxidación se nombra: “óxido” + nombre del elemento.",
+    "respuesta":"MgO"
+  },
+  {
+    "compuesto":"oxido ferrico",
+    "posiblesResp":"Fe2O3 FeO Fe3O2 Fe2O3",
+    "tips":"Recuerda  que si elemento tiene 3 estados de oxidación y su valencia se encuentra entre 5-6 se nombra “oxido” + raíz del elemento + sufijo “ICO”",
+    "respuesta":"Fe2O3"
+  },
+  {
+    "compuesto":"oxido estroncico ",
+    "posiblesResp":"SrO Sr2O3 Sr2O SrO2",
+    "tips":"Cuando un elemento tiene solo un estado de oxidación puede ser nombrado “oxido” + raíz del elemento + sufijo “ICO”",
+    "respuesta":"SrO"
+  },
+  {
+    "compuesto":"oxido sódico",
+    "posiblesResp":"Na2O Na2O5 NaO2 Na2O",
+    "tips":"Cuando un elemento tiene solo un estado de oxidación y se usa la valencia mayor puede ser nombrado “oxido” + raíz del elemento + sufijo “ICO”",
+    "respuesta":"Na2O"
+  },
+  {
+    "compuesto":"oxido auroso ",
+    "posiblesResp":"Au2O Au2O3 Au2O Au3O2",
+    "tips":"Cuando un elemento tiene 2 estados de oxidación y usa la valencia menor se nombra “oxido” + raíz del elemento + sufijo “OSO”",
+    "respuesta":"Au2O"
+  },
+  {
+    "compuesto":"oxido telurico",
+    "posiblesResp":"TeO3 TeO TeO2 Te3O",
+    "tips":"Recuerda  que si elemento tiene 3 estados de oxidación y su valencia se encuentra entre 5-6 se nombra “oxido” + raíz del elemento + sufijo “ICO”",
+    "respuesta":"TeO3"
+  },
+  {
+    "compuesto":"oxido periódico ",
+    "posiblesResp":"I2O O2I7  I2O5 O2I5",
+    "tips":"Recuerda  que si elemento tiene 3 estados de oxidación y su valencia se encuentra entre 7 y mayor  se nombra “oxido” +prefijo “PER” + raíz del elemento  + sufijo “ICO”",
+    "respuesta":"I2O"
+  },
+  {
+    "compuesto":"oxido cuproso",
+    "posiblesResp":"Cu2O CuO O2Cu CuO2",
+    "tips":"Cuando un elemento tiene 2 estados de oxidación y usa la valencia menor se nombra “oxido” + raíz del elemento + sufijo “OSO”",
+    "respuesta":"Cu2O"
+  },
+  {
+    "compuesto":"oxido   hipomanganoso ",
+    "posiblesResp":"MnO Mn2O  Mn3O2 Mn3O2",
+    "tips":"Cuando un elemento tiene más de 4 estados de oxidación y usa la valencia menor se nombra “oxido” + prefijo “HIPO”  raíz del elemento + sufijo “OSO”",
+    "respuesta":"MnO"
+  },
+  {
+    "compuesto":"oxido crómico ",
+    "posiblesResp":"Cr2O3 Cr3O CrO Cr2O",
+    "tips":"Recuerda  que si elemento tiene 3 estados de oxidación y su valencia se encuentra entre 5-6 se nombra “oxido” + raíz del elemento + sufijo “ICO”",
+    "respuesta":"Cr2O3"
+  },
+  {
+    "compuesto":"oxido nitroso ",
+    "posiblesResp":"N2O  NO O2N N2O3",
+    "tips":"Cuando un elemento tiene 4 estados de oxidación y usa la valencia menor se nombra “oxido” + raíz del elemento + sufijo “OSO”",
+    "respuesta":"N2O"
+  },
+  {
+    "compuesto":"oxido cuprico",
+    "posiblesResp":"CuO Cu2O O2Cu CuO2",
+    "tips":"Cuando un elemento tiene 2 estados de oxidación y usa la valencia mayor se nombra “oxido” + raíz del elemento + sufijo “ICO”",
+    "respuesta":"CuO"
+  },
+  {
+    "compuesto":"oxido plumbico",
+    "posiblesResp":"PbO2 Pb2O O2Pb PbO",
+    "tips":"Cuando un elemento tiene 2 estados de oxidación y usa la valencia mayor se nombra “oxido” + raíz del elemento + sufijo “ICO",
+    "respuesta":"PbO2"
+  },
+  {
+    "compuesto":"oxido argentico",
+    "posiblesResp":"Ag2O AgO  AgO2  O2Ag",
+    "tips":"Cuando el elemento tiene un solo estado de oxidación: se nombra “oxido” + raíz del elemento + sufijo “ICO",
+    "respuesta":"Ag2O"
+  },
+  {
+    "compuesto":"oxido niqueloso",
+    "posiblesResp":"NiO NiO3  Ni2O3 Ni3O2",
+    "tips":"Cuando un elemento tiene 2 estados de oxidación y usa la valencia del  menor se nombra “oxido” + raíz del elemento + sufijo “OSO”",
+    "respuesta":"NiO"
+  },
+  {
+    "compuesto":"oxido  hiponitrogenoso",
+    "posiblesResp":"NO N2O  NO2 N2O5",
+    "tips":"Cuando un elemento tiene más de 4 estados de oxidación y usa la valencia menor se nombra “oxido” + prefijo “HIPO”  raíz del elemento + sufijo “OSO”",
+    "respuesta":"NO"
+  },
+  {
+    "compuesto":"oxido perbromico",
+    "posiblesResp":"Br2O7 Br7O2 Br2O5 Br2O",
+    "tips":"Recuerda  que si elemento tiene 3 estados de oxidación y su valencia se encuentra entre 7 y mayor  se nombra “oxido” +prefijo “PER” + raíz del elemento  + sufijo “ICO”",
+    "respuesta":"Br2O7"
+  },
+  {
+    "compuesto":"oxido litico",
+    "posiblesResp":"Li2O LiO2 LiO O2Li",
+    "tips":"Cuando el elemento tiene un solo estado de oxidación: se nombra “oxido” + raíz del elemento + sufijo “ICO",
+    "respuesta":"Li2O"
+  },
+  {
+    "compuesto":"oxido calcico",
+    "posiblesResp":"CaO Ca2O  CaO2 Ca3O",
+    "tips":"Cuando el elemento tiene un solo estado de oxidación: se nombra “oxido” + raíz del elemento + sufijo “ICO",
+    "respuesta":"CaO"
+  },
+  {
+    "compuesto":"oxido cromoso",
+    "posiblesResp":"Cr2O3 CrO3  Cr2O  CrO ",
+    "tips":"Cuando un elemento tiene 3 estados de oxidación y usa la valencia menor se nombra “oxido” + raíz del elemento + sufijo “OSO”",
+    "respuesta":"Cr2O3"
+  }
+]

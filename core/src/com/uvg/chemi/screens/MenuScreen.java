@@ -121,10 +121,10 @@ public class MenuScreen implements Screen {
         stage.act(Gdx.graphics.getDeltaTime());
         stage.draw();
         batch.begin();
-        font.draw(batch, "NOMECLATRIVIA", Gdx.graphics.getWidth() / 2 - 230,
+        font.draw(batch, "NOMECLATRIVIA", Gdx.graphics.getWidth() / 2 - font.getSpaceWidth() * 18,
                 Gdx.graphics.getHeight() / 2);
         batch.draw(logo, Gdx.graphics.getWidth() / 2 - 50,
-                Gdx.graphics.getHeight() / 2 + 150, 83, 100);
+                Gdx.graphics.getHeight() / 2 + Gdx.graphics.getHeight() * 0.20f, 83, 100);
         batch.end();
 
         if (TimeUtils.nanoTime() - tiempo > 100000){

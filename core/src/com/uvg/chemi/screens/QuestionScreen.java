@@ -2,6 +2,7 @@ package com.uvg.chemi.screens;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.*;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
@@ -48,6 +49,9 @@ public class QuestionScreen extends Stage implements Screen{
     private long tiempo;
     private Texture base;
     private Nivel megaNivel;
+    private Sound bien;
+    private Sound mal;
+    private float preguntasMalas;
 
     public QuestionScreen(ChemistryTriviaGame game, Nivel nivel, Nivel megaNivel){
         super(new ScreenViewport());
@@ -64,10 +68,15 @@ public class QuestionScreen extends Stage implements Screen{
     @Override
     public void show() {
 
+        ((OrthographicCamera)this.getCamera()).setToOrtho(false,
+                Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
         pregunta = new BitmapFont(Gdx.files.internal("fontAsk.fnt"));
         Skin skin = new Skin(Gdx.files.internal("uiskin.json"));
 
         base = new Texture(Gdx.files.internal("base.png"));
+
+        mal = Gdx.audio.newSound(Gdx.files.internal("Error.mp3"));
+        bien = Gdx.audio.newSound(Gdx.files.internal("Good.mp3"));
 
         backx = 1024;
         tiempo = TimeUtils.nanoTime();
@@ -86,7 +95,6 @@ public class QuestionScreen extends Stage implements Screen{
             @Override
             protected void result(Object obj){
                 tip.getContentTable().reset();
-                errores = 0;
             }
         };
         tip.button("Ok", false);
@@ -103,23 +111,44 @@ public class QuestionScreen extends Stage implements Screen{
                 if(respuesta.equals(preguntas.getRespuesta().get(numeroDePregunta))){
                     numeroDePregunta++;
                     cambioDeNivel = true;
+                    bien.play(0.5f);
                 }else{
                     errores++;
-                    if(errores >= 2){
+                    mal.play(0.5f);
+                    if(errores == 2){
+                        tip.getTitleLabel().setText(":)");
                         Label label = new Label(preguntas.getTips().get(numeroDePregunta), dialogSkin);
                         label.setWrap(true);
                         tip.getContentTable().add(label).prefWidth(350);
                         tip.show(QuestionScreen.this);
                     }
+                    if(errores > 2){
+                        numeroDePregunta++;
+                        preguntasMalas++;
+                        cambioDeNivel = true;
+                        errores = 0;
+                    }
                 }
 
             }
         };
+
+        ArrayList<Integer> indexes = new ArrayList<Integer>();
+        indexes.add(0);
+        indexes.add(1);
+        indexes.add(2);
+        indexes.add(3);
+        Collections.shuffle(indexes);
         botones = new TextButton[4];
-        botones[0] = new TextButton(preguntas.getPosiblesResp().get(0)[0], skin);
-        botones[1] = new TextButton(preguntas.getPosiblesResp().get(0)[1], skin);
-        botones[2] = new TextButton(preguntas.getPosiblesResp().get(0)[2], skin);
-        botones[3] = new TextButton(preguntas.getPosiblesResp().get(0)[3], skin);
+        botones[0] = new TextButton(preguntas.getPosiblesResp().get(0)[indexes.get(0)], skin);
+        botones[1] = new TextButton(preguntas.getPosiblesResp().get(0)[indexes.get(1)], skin);
+        botones[2] = new TextButton(preguntas.getPosiblesResp().get(0)[indexes.get(2)], skin);
+        botones[3] = new TextButton(preguntas.getPosiblesResp().get(0)[indexes.get(3)], skin);
+
+        botones[0].setWidth(botones[0].getWidth() + 20f);
+        botones[1].setWidth(botones[0].getWidth());
+        botones[2].setWidth(botones[0].getWidth());
+        botones[3].setWidth(botones[0].getWidth());
 
         botones[0].setPosition(Gdx.graphics.getWidth() / 2 - botones[0].getWidth() / 2,
                 Gdx.graphics.getHeight() / 2 - botones[0].getHeight());
@@ -163,21 +192,34 @@ public class QuestionScreen extends Stage implements Screen{
                 Gdx.graphics.getWidth(), Gdx.graphics.getHeight() * 0.15f );
         pregunta.draw(batch, nivel, Gdx.graphics.getWidth() / 2 - pregunta.getSpaceWidth() * nivel.length() / 2,
                 Gdx.graphics.getHeight() / 2 + pregunta.getLineHeight() + Gdx.graphics.getHeight() * 0.15f);
-        batch.draw(interrogation, Gdx.graphics.getWidth() / 2 - 100,
-                Gdx.graphics.getHeight() / 2 + pregunta.getLineHeight() + Gdx.graphics.getHeight() * 0.15f, 200, 200);
+        batch.draw(interrogation, Gdx.graphics.getWidth() / 2 - (Gdx.graphics.getHeight() * 0.30f) / 2,
+                Gdx.graphics.getHeight() / 2 + pregunta.getLineHeight() + Gdx.graphics.getHeight() * 0.15f,
+                Gdx.graphics.getHeight() * 0.30f, Gdx.graphics.getHeight() * 0.30f);
         batch.end();
         super.act();
         super.draw();
         if(cambioDeNivel){
             if(numeroDePregunta < preguntas.getPregunta().size()) {
+                ArrayList<Integer> indexes = new ArrayList<Integer>();
+                indexes.add(0);
+                indexes.add(1);
+                indexes.add(2);
+                indexes.add(3);
+                Collections.shuffle(indexes);
                 cambioDeNivel = false;
+                errores = 0;
                 currentQuestion = preguntas.getPregunta().get(numeroDePregunta);
-                botones[0].setText(preguntas.getPosiblesResp().get(numeroDePregunta)[0]);
-                botones[1].setText(preguntas.getPosiblesResp().get(numeroDePregunta)[1]);
-                botones[2].setText(preguntas.getPosiblesResp().get(numeroDePregunta)[2]);
-                botones[3].setText(preguntas.getPosiblesResp().get(numeroDePregunta)[3]);
+                botones[0].setText(preguntas.getPosiblesResp().get(numeroDePregunta)[indexes.get(0)]);
+                botones[1].setText(preguntas.getPosiblesResp().get(numeroDePregunta)[indexes.get(1)]);
+                botones[2].setText(preguntas.getPosiblesResp().get(numeroDePregunta)[indexes.get(2)]);
+                botones[3].setText(preguntas.getPosiblesResp().get(numeroDePregunta)[indexes.get(3)]);
             }else{
-                game.setScreen(new LevelScreen(game, megaNivel, tip));
+                float num = preguntas.getPregunta().size();
+                if (preguntasMalas / num >= 0.70f){
+                    game.setScreen(new LevelScreen(game, megaNivel, tip, false));
+                }else {
+                    game.setScreen(new LevelScreen(game, megaNivel, tip, true));
+                }
             }
         }
         if (TimeUtils.nanoTime() - tiempo > 100000){

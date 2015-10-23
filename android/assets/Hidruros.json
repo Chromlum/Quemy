@@ -1,0 +1,116 @@
+[
+  {
+    "compuesto":"Borano",
+    "posiblesResp":"BH3 H3B HB BH",
+    "tips":"B tiene como número de oxidación +3.",
+    "respuesta":"BH3"
+  },
+  {
+    "compuesto":"Silano",
+    "posiblesResp":"SiH4 SH HS Hsi",
+    "tips":"Si tiene como número de oxidación +4.",
+    "respuesta":"SiH4"
+  },
+  {
+    "compuesto":"Fosfina",
+    "posiblesResp":"PH3 H3P PH PH2",
+    "tips":"P tiene número de oxidación +3.",
+    "respuesta":"PH3"
+  },
+  {
+    "compuesto":"Arsina",
+    "posiblesResp":"AsH3 AsH HAs AsH4",
+    "tips":"As tiene como número de oxidación +3.",
+    "respuesta":"AsH3"
+  },
+  {
+    "compuesto":"amoniaco",
+    "posiblesResp":"NH3 NH2 H2N NH",
+    "tips":"N tiene como número de oxidación +3.",
+    "respuesta":"NH3"
+  },
+  {
+    "compuesto":"Hidruro de sodio ",
+    "posiblesResp":"NaH HNa Na2H NaH2",
+    "tips":"En los hidruros el hidrógeno posee número de oxidación -1.",
+    "respuesta":"NaH"
+  },
+  {
+    "compuesto":"Hidruro de litio ",
+    "posiblesResp":"LiH HLi Li2H LiH3",
+    "tips":"Li tiene como número de oxidación +1.",
+    "respuesta":"LiH"
+  },
+  {
+    "compuesto":"Hidruro de calcio ",
+    "posiblesResp":"CaH2 CaH Ca2H2 H2Ca",
+    "tips":"Ca tiene como número de oxidación +2.",
+    "respuesta":"CaH2"
+  },
+  {
+    "compuesto":"Hidruro de aluminio ",
+    "posiblesResp":"AlH3 AlH Al3H H3Al",
+    "tips":"Al tiene como número de oxidación 3.",
+    "respuesta":"AlH3"
+  },
+  {
+    "compuesto":"Hiduro de germanio ",
+    "posiblesResp":"GeH4 GeH Ge4H H4Ge",
+    "tips":"Ge tiene como número de oxidación +4.",
+    "respuesta":"GeH4"
+  },
+  {
+    "compuesto":"Hidruro de estaño ",
+    "posiblesResp":"SnH4 Sn4H H4Sn SnH",
+    "tips":"Sn tiene como número de oxidación +4.",
+    "respuesta":"SnH4"
+  },
+  {
+    "compuesto":"Hidruro de potacio ",
+    "posiblesResp":"KH HK H2K KH2",
+    "tips":"K tiene como número de oxidación +1.",
+    "respuesta":"KH"
+  },
+  {
+    "compuesto":"Hidruro de magnecio ",
+    "posiblesResp":"MgH2 Mg2H MgH H2Mg",
+    "tips":"Mg tiene como número de oxidación +2.",
+    "respuesta":"MgH2"
+  },
+  {
+    "compuesto":"Hidruro de rubidio ",
+    "posiblesResp":"RbH RbH2 Rb2H HRb   ",
+    "tips":"Rb tiene como número de oxidación +1.",
+    "respuesta":"RbH"
+  },
+  {
+    "compuesto":"Hidruro de cesio",
+    "posiblesResp":"CsH CsH4 Cs4H HCs",
+    "tips":"Cs tiene como número de oxidación +1.",
+    "respuesta":"CsH"
+  },
+  {
+    "compuesto":"Hidruro de estroncio ",
+    "posiblesResp":"SrH2 Sr2H H2Sr SrH",
+    "tips":"Sr tiene como número de oxidación +2.",
+    "respuesta":"SrH2"
+  },
+  {
+    "compuesto":"Hidruro de plomo",
+    "posiblesResp":"PbH4 PbH Pb4H H4Pb",
+    "tips":"Pb tiene como número de oxidación +4.",
+    "respuesta":"PbH4"
+  },
+  {
+    "compuesto":"Hidruro de cobaltoso",
+    "posiblesResp":"CoH2 CoH HCo Co2H",
+    "tips":"Cp tiene como número de oxidación +2.",
+    "respuesta":"CoH2"
+  },
+  {
+    "compuesto":"Hidruro Hipotitanioso",
+    "posiblesResp":"TiH2 TiH Ti2H HTi",
+    "tips":"Ti tiene como número de oxidación +2. ",
+    "respuesta":"TiH2"
+  }
+]

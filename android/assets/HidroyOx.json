@@ -1,0 +1,248 @@
+[
+  {
+    "compuesto":"Hidróxido de litio",
+    "posiblesResp":"LiOH Li2OH Li(OH)2 Li3(OH)2",
+    "tips":"Recuerda que la única valencia del litio es +1",
+    "respuesta":"LiOH"
+  },
+  {
+    "compuesto":"Hidróxido de bario",
+    "posiblesResp":"Ba2(OH) Ba(OH)2 BaOH Ba3(OH)",
+    "tips":"Recuerda que la única valencia del bario es +2",
+    "respuesta":"Ba(OH)2"
+  },
+  {
+    "compuesto":"Hidróxido de hierro",
+    "posiblesResp":"Fe(OH) Fe2(OH) Fe3(OH) Fe(OH)3",
+    "tips":"El hierro usa su valencia mas grande.",
+    "respuesta":"Fe(OH)3"
+  },
+  {
+    "compuesto":"Hidróxido crómico",
+    "posiblesResp":"(OH)Cr3 Cr6(OH) Cr(OH)3 Cr(OH)2",
+    "tips":"Recuerda que el metal siempre se escribe antes que el hidróxido.",
+    "respuesta":"Cr(OH)3"
+  },
+  {
+    "compuesto":"Hidróxido de aluminio",
+    "posiblesResp":"Al(OH)3 Al3(OH) Al2(OH) Al(OH)2",
+    "tips":"Recuerda que la valencia de (OH) siempre es -1",
+    "respuesta":"Al(OH)3"
+  },
+  {
+    "compuesto":"Hidróxido cuproso",
+    "posiblesResp":"Cu(OH)2 Cu2(OH) Cu(OH) (OH)Cu",
+    "tips":"Recuerda que la terminación “oso” indica que se esta usando la valencia pequeña",
+    "respuesta":"Cu(OH)"
+  },
+  {
+    "compuesto":"Hidróxido Auroso",
+    "posiblesResp":"Au(OH) Au(OH)2 Au(OH)3 Au(OH)4",
+    "tips":"Recuerda que la terminación “oso” indica que se esta usando la valencia pequeña",
+    "respuesta":"Au(OH)"
+  },
+  {
+    "compuesto":"Hidróxido Aúrico",
+    "posiblesResp":"Au(OH) Au(OH)2 Au(OH)3 Au(OH)4",
+    "tips":"Recuerda que la terminación “ico” indica una valencia mas grande que “oso”",
+    "respuesta":"Au(OH)3"
+  },
+  {
+    "compuesto":"Hidróxido de potasio",
+    "posiblesResp":"(OH)K K(OH) K(OH)2 K2(OH)",
+    "tips":"Recuerda que el potasio solo puede usar la valencia +1",
+    "respuesta":"K(OH)"
+  },
+  {
+    "compuesto":"Hidróxido de sodio",
+    "posiblesResp":"Na(OH) Na2(OH) Na(OH)2 (OH)Na",
+    "tips":"Recuerda que el sodio solo puede usar la valencia",
+    "respuesta":"Na(OH)"
+  },
+  {
+    "compuesto":"Hidróxido de calcio",
+    "posiblesResp":"Ca2(OH) Ca(OH)2 Ca2(OH)3 Ca(OH)",
+    "tips":"Recuerda que el calcio se encuentra en la fila número dos.",
+    "respuesta":"Ca(OH)2"
+  },
+  {
+    "compuesto":"Hidróxido de litio",
+    "posiblesResp":"Li(OH)3 Li(OH)2 Li(OH) Li2(OH)",
+    "tips":"Recuerda que el litio solo puede usar la valencia +1",
+    "respuesta":"Li(OH)"
+  },
+  {
+    "compuesto":"Hidróxido de plomo (IV)",
+    "posiblesResp":"Pb(OH)2 Pb4(OH) Pb(OH)4 Pb(OH)",
+    "tips":"Recuerda revisar el nombre del compuesto.",
+    "respuesta":"Pb(OH)4"
+  },
+  {
+    "compuesto":"Hidróxido de plomo (II)",
+    "posiblesResp":"Pb(OH)2 Pb2(OH) Pb(OH) Pb(OH)4",
+    "tips":"Recuerda revisar el nombre del compuesto.",
+    "respuesta":"Pb(OH)2"
+  },
+  {
+    "compuesto":"Hidróxido de bario",
+    "posiblesResp":"Ba(OH) Ba(OH)3 Ba2(OH) Ba(OH)2",
+    "tips":"Recuerda revisar las valencias del bario.",
+    "respuesta":"Ba(OH)3"
+  },
+  {
+    "compuesto":"Hidróxido bismutoso",
+    "posiblesResp":"Bi(OH)3 Bi(OH)5 Bi(OH) Bi(OH)2",
+    "tips":"Recuerda la significancia de la terminación “oso”",
+    "respuesta":"Bi(OH)3"
+  },
+  {
+    "compuesto":"Hidróxido bismútico",
+    "posiblesResp":"Bi(OH)3 Bi(OH)5 Bi(OH) Bi(OH)2",
+    "tips":"Recuerda la significancia de la terminación “ico”",
+    "respuesta":"Bi(OH)5"
+  },
+  {
+    "compuesto":"Hidróxido de magnesio",
+    "posiblesResp":"Mn(OH) Mg(OH)3 Mg(OH)2 Mn(OH)2",
+    "tips":"Recuerda que el magnesio solo usa la valencia +2. También debes tener cuidado con el elemento.",
+    "respuesta":"Mg(OH)2"
+  },
+  {
+    "compuesto":"Hidróxido manganoso",
+    "posiblesResp":"Mn(OH)2 Mn2(OH) Mn(OH) Mn(OH)3",
+    "tips":"Recuerda la significancia de la terminación “oso”",
+    "respuesta":"Mn(OH)2"
+  },
+  {
+    "compuesto":"Hidróxido mangánico",
+    "posiblesResp":"Mn(OH) Mn3(OH) Mn(OH)3 Mn(OH)2 ",
+    "tips":"Recuerda la significancia de la terminación “ico”",
+    "respuesta":"Mn(OH)3"
+  },
+  {
+    "compuesto":"Hidróxido de cinc",
+    "posiblesResp":"Zn(OH)2 Zn(OH) Zn2(OH) Zn(OH)3",
+    "tips":"Recuerda que el cinc usa la valencia +2",
+    "respuesta":"Zn(OH)2"
+  },
+  {
+    "compuesto":"Ácido hipocloroso",
+    "posiblesResp":"HClO HClO2 HClO3 H2ClO",
+    "tips":"Recuerda que el anión hipoclorito (ClO) usa la valencia -1",
+    "respuesta":"HClO"
+  },
+  {
+    "compuesto":"Ácido cloroso",
+    "posiblesResp":"HClO H2ClO HClO2 H3ClO2",
+    "tips":"Recuerda que el anión clorito (ClO2) tiene una carga -1",
+    "respuesta":"HClO2"
+  },
+  {
+    "compuesto":"Ácido clórico",
+    "posiblesResp":"HClO HClO2 HClO3 H2ClO",
+    "tips":"Recuerda que el anión clorato (ClO3) tiene una carga -1",
+    "respuesta":"HClO3"
+  },
+  {
+    "compuesto":"Ácido perclórico",
+    "posiblesResp":"HClO2 HClO4 HClO3 HClO",
+    "tips":"Recuerda que el anión perclorato (ClO4) tiene una carga -1",
+    "respuesta":"HClO4"
+  },
+  {
+    "compuesto":"Ácido hipobromoso",
+    "posiblesResp":"HBrO2 H2BrO HBrO HBrO3",
+    "tips":"Recuerda que el anión hipobromito (BrO) tiene una carga -1",
+    "respuesta":"HBrO"
+  },
+  {
+    "compuesto":"Ácido nítrico",
+    "posiblesResp":"HNO2 H2NO3 HNO3 HNO",
+    "tips":"Recuerda la significancia de la terminación “ico”",
+    "respuesta":"HNO3"
+  },
+  {
+    "compuesto":"Ácido nitroso",
+    "posiblesResp":"HNO2 H3NO2 H3NO HNO",
+    "tips":"Recuerda la significancia de la terminación “oso”",
+    "respuesta":"HNO2"
+  },
+  {
+    "compuesto":"Ácido fosfórico",
+    "posiblesResp":"H3PO4 H4PO3 HPO HPO3",
+    "tips":"Recuerda la significancia de la terminación “ico”",
+    "respuesta":"H3PO4"
+  },
+  {
+    "compuesto":"Ácido fosforoso",
+    "posiblesResp":"H4PO3 H3PO4 H3PO3 H2PO3",
+    "tips":"Recuerda la significancia de la terminación “oso”",
+    "respuesta":"H3PO3"
+  },
+  {
+    "compuesto":"Ácido Arsenoso",
+    "posiblesResp":"H3AsO3 H2AsO3 H3AsO2 H4AsO4",
+    "tips":"Recuerda la significancia de la terminación “oso”",
+    "respuesta":"H3AsO3"
+  },
+  {
+    "compuesto":"Ácido arsénico",
+    "posiblesResp":"H3AsO3 H2AsO3 H3AsO2 H3AsO4",
+    "tips":"Recuerda la significancia de la terminación “ico”",
+    "respuesta":"H3AsO4"
+  },
+  {
+    "compuesto":"Ácido sulfúrico",
+    "posiblesResp":"H2SO4 H3SO3 H3SO3 HSO4",
+    "tips":"Recuerda la significancia de la terminación “ico”",
+    "respuesta":"H2SO4"
+  },
+  {
+    "compuesto":"Ácido sulfuroso",
+    "posiblesResp":"H2SO4 H3SO3 H2SO3 HSO2",
+    "tips":"Recuerda la significancia de la terminación “oso”",
+    "respuesta":"H2SO3"
+  },
+  {
+    "compuesto":"Ácido seleníco",
+    "posiblesResp":"H2SeO3 H2SeO4 H4SeO3 HSeO3",
+    "tips":"Recuerda la significancia de la terminación “ico”",
+    "respuesta":"H2SeO4"
+  },
+  {
+    "compuesto":"Ácido selenoso",
+    "posiblesResp":"H2SeO3 H2SeO4 H4SeO3 HSeO3",
+    "tips":"Recuerda la significancia de la terminación “oso”",
+    "respuesta":"H2SeO4"
+  },
+  {
+    "compuesto":"Ácido brómico",
+    "posiblesResp":"HBrO3 HBrO4 H2BrO3 HBrO",
+    "tips":"Recuerda la significancia de la terminación “ico",
+    "respuesta":"HBrO3"
+  },
+  {
+    "compuesto":"Ácido bórico",
+    "posiblesResp":"H3BO4 H2BO2 H3BO3 HBO",
+    "tips":"Recuerda la significancia de la terminación “ico”",
+    "respuesta":"H3BO3"
+  },
+  {
+    "compuesto":"Ácido carbónico",
+    "posiblesResp":"H2CO H2CO3 H2CO2 HCO2",
+    "tips":"Recuerda la significancia de la terminación “ico”",
+    "respuesta":"H2CO3"
+  },
+  {
+    "compuesto":"Ácido permangánico",
+    "posiblesResp":"HMnO4 H2MnO4 H(MnO4)2 HMnO",
+    "tips":"Recuerda que el ión permanganato (MnO4) tiene una carga -1",
+    "respuesta":"HMnO4"
+  },
+  {
+    "compuesto":"Ácido yodoso",
+    "posiblesResp":"HIO2 HIO3 H3IO2 H2IO3",
+    "tips":"Recuerda la significancia de la terminación “oso”",
+    "respuesta":"HIO2"
+  }
+]

@@ -89,16 +89,16 @@ public class WorldScreen implements Screen {
         stage.addActor(level5);
         stage.addActor(level6);
 
-        int col = Gdx.graphics.getWidth() / 3 ;
-        int row = Gdx.graphics.getHeight() / 4;
+        float col = Gdx.graphics.getWidth() / 3 ;
+        float row = Gdx.graphics.getHeight() / 3.5f;
 
-        level1.setPosition(col - 120f * 1.5f, row * 2);
-        level2.setPosition(col * 2 - 120f * 1.5f, row * 2);
-        level3.setPosition(col * 3 - 120f * 1.5f, row * 2);
+        level1.setPosition(Gdx.graphics.getWidth() * 0.10f, row * 2);
+        level2.setPosition(col + Gdx.graphics.getWidth() * 0.10f, row * 2);
+        level3.setPosition(col * 2 + Gdx.graphics.getWidth() * 0.10f, row * 2);
 
-        level4.setPosition(col - 120f * 1.5f, row);
-        level5.setPosition(col * 2 - 120f * 1.5f, row);
-        level6.setPosition(col * 3 - 120f * 1.5f, row);
+        level4.setPosition(Gdx.graphics.getWidth() * 0.10f, row);
+        level5.setPosition(col + Gdx.graphics.getWidth() * 0.10f, row);
+        level6.setPosition(col * 2 + Gdx.graphics.getWidth() * 0.10f, row);
 
         level1.addListener(new ClickListener() {
 
@@ -201,7 +201,8 @@ public class WorldScreen implements Screen {
                         respuestas.add(js.getString("respuesta"));
                     }
 
-                    game.setScreen(new LevelScreen(game,
+                    game.setScreen(new QuestionScreen(game,
+                            new Nivel(compuestos, respuestas, posiblesResp, tips),
                             new Nivel(compuestos, respuestas, posiblesResp, tips)));
                 }catch (Exception e){
                     Gdx.app.log("ERROR", "BAD PARSE ON JSON");
